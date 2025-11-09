@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepanshu Gulia | Portfolio</title>
+    <link rel="stylesheet" href="assignmentportfolio.css">
+    <link href="/WhatsApp Image 2025-10-02 at 10.51.42 PM.jpeg" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <nav id="navbar">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#motivation">Motivation</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#goals">Goals</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <h2>"Consistency is the way to success"</h2>
+        <h1>Deepanshu Gulia</h1>
+        <h3>B.Tech CSE Student | Learner | Developer</h3>
+
+        <div class="photo-container">
+            <img src="WhatsApp Image 2025-10-02 at 10.51.42 PM.jpeg" alt="Deepanshu Gulia Photo" width="200" height="250">
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I’m <b>Deepanshu Gulia</b>, born on 19th February 2007. I’m a first-year B.Tech student in Computer Science at <b>K.R. Mangalam University</b>.  
+        I enjoy learning about technology, artificial intelligence and robotics. I like to explore new tools and try to build things on my own.</p>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>2010 – Joined Play School</li>
+            <li>2011 – Joined CSM Public School</li>
+            <li>2023 – Completed Class 10 (CBSE Board)</li>
+            <li>2025 – Completed Class 12 from PACE Academy, Jhajjar</li>
+            <li>2025 – Joined B.Tech CSE at K.R. Mangalam University</li>
+        </ul>
+    </section>
+
+    <!-- Motivation -->
+    <section id="motivation">
+        <h2>My Motivation</h2>
+        <p>My main inspiration comes from my family and friends.  
+        My parents always supported me and taught me to never give up.  
+        My elder brother helped me a lot in choosing computer science, and my friends always keep me motivated to improve.</p>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <ul>
+            <li><b>Portfolio Website:</b> This website you’re reading now, built with HTML and CSS.</li>
+            <li><b>Humanoid Robot:</b> A small robot model that can move and greet users.</li>
+            <li><b>Python Chatbot:</b> A chatbot made using simple Python scripts.</li>
+        </ul>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <table>
+            <tr><th>Skill</th><th>Level</th></tr>
+            <tr><td>HTML</td><td>Intermediate</td></tr>
+            <tr><td>CSS</td><td>Learning</td></tr>
+            <tr><td>Python</td><td>Intermediate</td></tr>
+            <tr><td>C++</td><td>Learning</td></tr>
+            <tr><td>Robotics</td><td>Beginner</td></tr>
+        </table>
+    </section>
+
+    <!-- Achievements -->
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <ul>
+            <li>Participated in school robotics and coding competitions.</li>
+            <li>Built my first website using HTML and CSS.</li>
+            <li>Learned Python basics through online courses.</li>
+        </ul>
+    </section>
+
+    <!-- Goals -->
+    <section id="goals">
+        <h2>Future Goals</h2>
+        <p>In the future, I want to learn full-stack web development and artificial intelligence.  
+        I wish to work on real-world robotics projects and maybe start a small tech company one day.</p>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Type your message..." rows="4" required></textarea>
+
+            <input type="checkbox" id="agree" required>
+            <label for="agree">I agree to the terms and conditions</label>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!-- Back to top -->
+    <button id="back-to-top">↑</button>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Deepanshu Gulia | Made with effort and learning :)</p>
+    </footer>
+
+    <script>
+        const topButton = document.getElementById("back-to-top");
+        window.addEventListener("scroll", () => {
+            topButton.style.display = window.scrollY > 200 ? "block" : "none";
+        });
+        topButton.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+    </script>
+
+</body>
+</html>
